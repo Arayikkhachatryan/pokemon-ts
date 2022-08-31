@@ -2,8 +2,8 @@ import { api } from "../lib/axios";
 
 export type IPokemonsList = {
   count: number;
-  next: string | null;
-  previous: string | null;
+  next: string;
+  previous: string ;
   results: IPokemon[];
 };
 
